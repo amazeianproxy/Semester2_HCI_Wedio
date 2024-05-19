@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(to bottom, #031626, #3B76A1);
+}
+
+.header{
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    padding: 33px 0px;
+    z-index: 10;
+    display: flex;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    width: 15%;
+    margin-left: 45px;
+}
+
+#logo-img{
+    width: 21.5%;
+}
+
+#brand{
+    width: 73.5%;
+    margin-left: auto;
+}
+
+#start{
+    margin-left: auto;
+    margin-right: 45px;
+    height: 71.5%;
+    overflow-y: hidden;
+    background-color: blue;
+    border-radius: 12px;
+    /* padding: 12px 16px; */
+}
+
+#start h1{
+    /* border: 2px solid black; */
+    /* text-decoration: dotted; */
+    text-align: center;
+    height: 50%;
+}
+
+#ball{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 105%;
+    left: 43%;
+    top: 100%;
+    background-color: green;
+}

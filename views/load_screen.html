@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "../css/general.css">
+    <link rel = "stylesheet" href = "../css/open_screen.css">
+</head>
+<body>
+    <div class="absolute ">
+        <div class="blob" id="blob1">
+            <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                <defs>
+                  <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" style="stop-color: rgb(88, 34, 89);"></stop>
+                    <stop offset="100%" style="stop-color: rgb(241, 141, 241);"></stop>
+                  </linearGradient>
+                </defs>
+                <path fill="url(#gradient)">
+                    <animate attributeName="d"  dur="8000ms" repeatCount="indefinite" values="
+                        M398.5,293.5Q369,337,330.5,358Q292,379,247.5,387.5Q203,396,143,384Q83,372,102,311Q121,250,106,192Q91,134,136,86.5Q181,39,239.5,70Q298,101,346.5,123Q395,145,411.5,197.5Q428,250,398.5,293.5Z;
+
+                        M456.17257,315.06453Q429.18007,380.12905,376.63806,429.71459Q324.09604,479.30012,259.53601,448.68308Q194.97599,418.06603,159.04802,379.988Q123.12005,341.90996,69.90396,295.95498Q16.68787,250,68.88895,203.03301Q121.09004,156.06603,153.55252,104.05252Q186.01501,52.03902,255.04652,37.40246Q324.07803,22.7659,380.10054,68.83793Q436.12305,114.90996,459.64406,182.45498Q483.16507,250,456.17257,315.06453Z;
+
+                        M400.5,290Q360,330,343.5,408Q327,486,251.5,482Q176,478,127.5,426Q79,374,94.5,312Q110,250,89,184Q68,118,129.5,93Q191,68,241,96.5Q291,125,340,137Q389,149,415,199.5Q441,250,400.5,290Z;
+
+                        M442.84227,300.45488Q388.22818,350.90976,341.40902,369.83968Q294.58987,388.7696,249.40902,389.99704Q204.22818,391.22448,140.04586,384.18047Q75.86354,377.13646,53.72596,313.56823Q31.58838,250,68.61298,197.59135Q105.63758,145.18269,144.13683,94.04549Q182.63609,42.90828,243.61372,61.47614Q304.59135,80.04401,373.97837,94.65773Q443.36539,109.27145,470.41088,179.63572Q497.45636,250,442.84227,300.45488Z;
+
+                        M398.5,293.5Q369,337,330.5,358Q292,379,247.5,387.5Q203,396,143,384Q83,372,102,311Q121,250,106,192Q91,134,136,86.5Q181,39,239.5,70Q298,101,346.5,123Q395,145,411.5,197.5Q428,250,398.5,293.5Z;
+                    "></animate>
+                </path>
+            </svg>
+        </div>
+
+        <div class="load-anim">
+            <div>.</div>
+            <div>.</div>
+            <div>.</div>
+            <div>G</div>
+            <div>N</div>
+            <div>I</div>
+            <div>D</div>
+            <div>A</div>
+            <div>O</div>
+            <div>L</div>
+        </div>
+
+        <!-- Please remove when routing corrected -->
+        <div class="warn">Press anything to continue ... [This will be removed]</div>
+    </div>
+
+    <div class="main-cont">
+        <img src="../assets/logo.svg" alt="The WIDEO logo" class="">
+        <img src="../assets/WEDIO.svg" alt="WEDIO Title" class="title">
+    </div>
+    <script src = "../js/load_screen.js"></script>
+</body>
+</html>
