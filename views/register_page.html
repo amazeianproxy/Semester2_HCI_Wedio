@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href = "../css/popup.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="regContainer">
+            <h2>Register Account</h2>
+            <div class="name">
+                <input type="text" name="fname" placeholder="First Name">
+                <input type="text" name="lname" placeholder="Last Name">
+            </div>
+            <input type="text" name="email" placeholder="Email" style="width: 360px;">
+            <input type="text" name="password" placeholder="Password" style="width: 360px;">
+            <input type="text" name="cpassword" placeholder="Confirm Password" style="width: 360px;">
+            <div style="display: inline;">
+                <input type="checkbox" name="term">
+            <label class="label-style" for="term" style="font-size: small;">I have agreed to <a href="#" onclick="showPopup()">terms and service</a></label>
+            </div> 
+            <button class = "register" onclick="checkText()">Register</button>   
+         </div>      
+        <a href="login_page.html">
+            <button class="back"><img src="../assets/arrow.png" alt=""> Back</button>
+        </a>
+    </div>
+    <div class="connector">
+        <a href=""> About</a>
+        <a href="">Help</a>
+        <a href="">Blog</a>
+        <a href="">Privacy</a>
+        <a href="">Jobs</a>
+        <a href="">Location</a>
+        <a href="">Term</a>
+        <a href="">Wedio</a>
+    </div>
+        <footer>Ⓒ 2024 All Rights Reserved PT.Wedio</footer>
+        <div id="popup">
+            <div id="popupContent">
+                <span class="closeBtn" onclick="closePopup()">&times;</span>
+                <h2>Terms and Service</h2>
+                <p>We are PT. Wedio ("Company," "we," "us," "our"), a company registered in Indonesia at Jl. Jalur Sutera Bar. No.Kav. 21, RT.001/RW.004, Panunggangan, Kec. Pinang, Kota Tangerang, Banten, 15143, Jl. Jalur Sutera Bar. No.Kav. 21, RT.001/RW.004, Panunggangan, Kec. Pinang, Kota Tangerang, Banten, 15143, Tangerang City, Banten 15143. Our VAT number is 12.345.678.9-123.456.
+                    We operate the website wedio.com (the "Site"), as well as any other related products and services that refer or link to these legal terms (the "Legal Terms") (collectively, the "Services").
+                    We provide a Social Media specifically for audio. Users can share their audio with other users for hobby, business, or even documentary purposes. We also provide a marketplace where people can sell their audio, service, or subscription to allow productivity and opportunity for new jobs.
+                    You can contact us by phone at 62-0857-8228-7880, email at wedio@wehearyou.com, or by mail to Jl. Jalur Sutera Bar. No.Kav. 21, RT.001/RW.004, Panunggangan, Kec. Pinang, Kota Tangerang, Banten, 15143, Jl. Jalur Sutera Bar. No.Kav. 21, RT.001/RW.004, Panunggangan, Kec. Pinang, Kota Tangerang, Banten, 15143, Tangerang City, Banten 15143, Indonesia.
+                    These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you"), and PT. Wedio, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.</p>
+            </div>
+        </div>
+    <script src="/js/popUp.js"> </script>
+    <script src="/js/validation.js"></script>
+</body>
+</html>

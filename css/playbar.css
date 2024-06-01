@@ -1,0 +1,137 @@
+
+.music-player{
+    background-color: color-mix(in srgb, #049DD9 100%, #031626 0%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    padding: 0; 
+    margin: 0; 
+    height: 14vh;
+    position: relative;
+    border-radius: 10px;
+}
+.title{
+    font-weight: bold;
+}
+.image-container{
+    width: 75px;
+    height: 75px;
+}
+.song-bar{
+    position: absolute;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+.song-infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 5px;
+}
+.progress-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap : 5px;
+}
+.progress-container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap : 5px;
+}
+.progress-bar{
+    height: 4px;
+    background-color: grey;
+    border-radius: 10px;
+    width: 30%;
+}
+.progress{
+    background-color: blue;
+    border-radius: 10px;
+    width: 0;
+    height: 100%;
+}
+.control-button > button{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.control-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 30px;
+}
+
+.nextSong-container{
+    position: absolute;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+}
+
+.progress{
+    background-color: black;
+}
+#play.play{
+    color: white;
+}
+
+#play.pause{
+    color: blue;
+}
+#shuffle.shuffle-off{
+    color: white;
+}
+#shuffle.shuffle-on{
+    color: blue;
+}
+.image-container{
+    width: 100px;
+    height: 100px;
+}
+
+.song-description-start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.song-description-end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.title-logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.title-logo #logo-img{
+    height: 4em;
+    margin-right: 1em;
+}
+
+.title-logo #brand-logo{
+    height: 1.5em;
+}

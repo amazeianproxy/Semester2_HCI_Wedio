@@ -3,44 +3,251 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/playbar.css">
+    <link rel="stylesheet" href="../css/home_page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <div class = "container">
     <div class="left">
-        <h1>Wedio</h1>
-        <a class="option">Home</a>
-        <a class="option">Search</a>
-        <a class="option">Message</a>
-        <a class="option">Create</a>
-        <a class="option">Profile</a>
+        <div class="title-logo">
+            <img src="../assets/logo.svg" alt="" id="logo-img">
+            <img src="../assets/WEDIO.svg" alt="" id="brand-logo">
+        </div>    
+            <a href="home_page.html">
+                <button id="home">
+                    <i class="fa fa-home"></i>
+                    <span class="option">Home</span>
+                </button>
+            </a>
+            <a href="search_page.html">
+                <button type = "submit" id="search">
+                    <i class="fa fa-search"></i>
+                    <span class="option">Search</span>
+                </button>
+            </a>
+            <a href="chat_page.html">
+                <button type = "submit" id="message">
+                    <i class="fa fa-comment" aria-hidden="true"></i>
+                    <span class="option">Message</span>
+                </button>
+            </a>
+            <a href="create_post_page.html">
+                <button type = "submit" id="create">
+                    <i class="fa fa-microphone"></i>
+                    <span class="option">Create</span>
+                </button>
+            </a>
+            <a href="profile_page.html">
+                <button type = "submit" id="profile">
+                    <i class="fa fa-search"></i>
+                    <span class="option">Profile</span>
+                </button>
+            </a>
     </div>
     <div class="mid">
 
         <div class = "top">
             <div class="picture">
-                <img src="../assets/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" draggable="false">
+                <img src="/assets/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" draggable="false">
+                <p>New Playlist</p>
             </div>
             <div class="picture">
-                <img src="../assets/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" draggable="false">
+                <img src="/assets/BestMeme.jpg" draggable="false">
+                <p>Friends</p>
             </div>
             <div class="picture">
-                <img src="../assets/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" draggable="false">
+                <img src="/assets/images.jpeg" draggable="false">
+                <p>K-Pop</p>
             </div>
             <div class="picture">
-                <img src="../assets/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" draggable="false">
+                <img src="/assets/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" draggable="false">
+                <p>Wibu</p>
             </div>
             <div class="picture">
-                <img src="../assets/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" draggable="false">
+                <img src="/assets/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" draggable="false">
+                <p>Galau</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="recomendation-bar">
+                <div class="recomendation-title">
+                    <h1>For You</h1>
+                    <button class="button2">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+                <div class="recomendation-container">
+                <img src="/assets/download.jpg" class="recomendation-image">
+                    <div class="recomendation-des">
+                        <h2>Lofi Girl</h2>
+                        <p>Lofi Girl</p>
+                    </div>
+                </div>
+                <div class="recomendation-container">
+                    <img src="/assets/download.jpg" class="recomendation-image">
+                        <div class="recomendation-des">
+                            <h2>Lofi Girl</h2>
+                            <p>Lofi Girl</p>
+                        </div>
+                    </div>
+                <div class="recomendation-container">
+                    <img src="/assets/download.jpg" class="recomendation-image">
+                    <div class="recomendation-des">
+                        <h2>Lofi Girl</h2>
+                        <p>Lofi Girl</p>
+                    </div>
+                </div> 
+            </div>
+            
+            <div class="recomendation-bar">
+                <div class="recomendation-title">
+                    <h1>Friends</h1>
+                    <button class="button2">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+                <div class="recomendation-container">
+                <img src="/assets/download.jpg" class="recomendation-image">
+                    <div class="recomendation-des">
+                        <h2>Lofi Girl</h2>
+                        <p>Lofi Girl</p>
+                    </div>
+                </div>
+                <div class="recomendation-container">
+                    <img src="/assets/download.jpg" class="recomendation-image">
+                        <div class="recomendation-des">
+                            <h2>Lofi Girl</h2>
+                            <p>Lofi Girl</p>
+                        </div>
+                    </div>
+                <div class="recomendation-container">
+                    <img src="/assets/download.jpg" class="recomendation-image">
+                    <div class="recomendation-des">
+                        <h2>Lofi Girl</h2>
+                        <p>Lofi Girl</p>
+                    </div>
+                </div> 
+            </div>
+            <div class="recomendation-bar">
+                <div class="recomendation-title">
+                    <h1>Following</h1>
+                    <button class="button2">
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+                <div class="recomendation-container">
+                <img src="/assets/download.jpg" class="recomendation-image">
+                    <div class="recomendation-des">
+                        <h2>Lofi Girl</h2>
+                        <p>Lofi Girl</p>
+                    </div>
+                </div>
+                <div class="recomendation-container">
+                    <img src="/assets/download.jpg" class="recomendation-image">
+                        <div class="recomendation-des">
+                            <h2>Lofi Girl</h2>
+                            <p>Lofi Girl</p>
+                        </div>
+                    </div>
+                <div class="recomendation-container">
+                    <img src="/assets/download.jpg" class="recomendation-image">
+                    <div class="recomendation-des">
+                        <h2>Lofi Girl</h2>
+                        <p>Lofi Girl</p>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="bot">
+            <div class="bot-container">
+                <div class="favorite-title">
+                    <div>
+                        <h3>Your Favorites</h3>
+                    </div>
+                </div>
+                <div class="favorite-container">
+                    <div class="favorite">
+                        <img src="/assets/images.jpeg">
+                        <p class="artist">jennie</p>
+                    </div>
+                    <div class="favorite">
+                        <img src="/assets/drake.jpg">
+                        <p class="artist">jennie</p>
+                    </div>
+                    <div class="favorite">
+                        <img src="/assets/kendrik.jpg">
+                        <p class="artist">jennie</p>
+                    </div>
+                    <div class="favorite">
+                        <img src="/assets/images.jpeg">
+                        <p class="artist">jennie</p>
+                    </div>
+                    <div class="favorite">
+                        <img src="/assets/images.jpeg">
+                        <p class="artist">jennie</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <div class="right">
-
     </div>
-    
 </div>
 
+    <nav class="music-player">
+        <div class="song-bar">
+            <div class="song-infos">
+                <div class="image-container">
+                    <img src="/assets/ab67616d0000b273c0e833f8baa95fdcbcc4f65a.jpg" id="image">
+                </div>
+                <div class="song-description-start">
+                    <p class="title"> Fall in Love Alone</p>
+                    <p class="artist">Stacey Ryan</p>
+                </div>
+            </div>
+        </div>
+            <div class="progress-container">
+                <div class="control-button">
+                    <button>
+                        <i class="fa fa-random" aria-hidden="true" id="shuffle"></i>
+                    </button>
+                    <button>
+                        <i class="fa fa-step-backward" aria-hidden="true" id="previous"></i>
+                    </button>
+                    <button class="button">
+                        <i class="fas fa-play" id="play"></i>
+                    </button>
+                    <button>
+                        <i class="fa fa-step-forward" aria-hidden="true" id="next"></i>             
+                    </button>
+                </div>
+                <audio id="audio" src="/assets/Stacey Ryan - Fall In Love Alone (Lyrics).mp3" type="audio/mpeg">
+                </audio>
+                <div class="progress-container2" id="progress-container">
+                    <span id="current-time">0:00</span>
+                    <div class="progress-bar" id="progress-bar">
+                    <div class="progress" id="progress"></div>
+                    </div>
+                    <span id="duration">0:00</span>
+                </div>
+            </div>
+            <div class="nextSong-container">
+                <div class="song-description-end">
+                    <p>Next Song :</p>
+                    <p class="title" id="title"> Midnight Fiction</p>
+                    <p class="artist" id="artist">ILLIT</p>
+                </div>
+                <div class="image-container">
+                    <img src="/assets/download (1).jpg" id="imageN">
+                </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <script src="/js/audio.js"></script>
 </body>
 </html>

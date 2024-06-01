@@ -185,3 +185,68 @@ body{
   font-style: normal;
 }
   
+/*
+  Pause and play button animation and vector for
+  buttons
+*/
+.play-button-case{
+  background-color: #03C7F2;
+  aspect-ratio: 1/1;
+  height: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.play-button-container {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.play-button {
+  display: inline-block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  transition: clip-path .3s ease;
+}
+.play-button-before {
+  clip-path: polygon(0 0, 50% 25%, 50% 75%, 0% 100%);
+}
+.play-button-after {
+  clip-path: polygon(50% 25%, 100% 50%, 100% 50%, 50% 75%);
+}
+.play-button-container.play-button-active .play-button-before {
+  clip-path: polygon(0 0, 30% 0, 30% 100%, 0% 100%);
+}
+.play-button-container.play-button-active .play-button-after{
+  clip-path: polygon(70% 0, 100% 0, 100% 100%, 70% 100%)
+}
+
+/*
+  Time line range for the sliders
+*/
+
+.timeline{
+  -webkit-appearance: none;
+  position: absolute;
+  height: 3px;
+  width: 185px;
+  background-color: black;
+  border: 5px;
+  outline: none;
+  border: none;
+}
+
+.timeline::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  background-color: #03C7F2;
+  border: 2px solid black;
+  border-radius: 100%;
+  height: 20px;
+  width: 20px;
+}

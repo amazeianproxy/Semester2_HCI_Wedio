@@ -1,3 +1,7 @@
+html{
+    background-color: #031626;
+}
+
 .container{
     margin-top: 40px;
     padding: 0;
@@ -8,23 +12,81 @@
     align-items: center;
     width: 450px;
     height:525px;
-    border-radius: 5px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+#signupnlisten{
+    margin-bottom: 10px;
+}
+
+.title-logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.title-logo #logo-img{
+    height: 4em;
+    margin-right: 1em;
+}
+
+.title-logo #brand-logo{
+    height: 1.5em;
+}
+
+.regContainer{
+    margin-top: 40px;
+    padding: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height:525px;
+    border-radius: 10px;
     flex-direction: column;
 }
 
 h1{
     margin: 0;
 }
+
 .loginContainer{
     background-color: white;
     color: black;
     border-radius: 5px;
     margin: 5px;
-    padding-left: 40px;
-    padding-right: 40px;
-    width: 200px;
+    padding: 8px 0px;
+    width: 300px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.loginContainer p{
+    font-size: 1.13em;
+}
+
+.loginContainer img{
+    width: 30px;
+    margin-right: 8px;
+}
+
+.login{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin: 5px;
+    padding-left: 75px;
+
+    width: 300px;
+    text-align: center; 
+}
+
 
 body{
     display: flex;
@@ -35,13 +97,17 @@ body{
 
 footer{
     padding-top: 10px;
+    color: #B2B2B2;
 }
 
 .connector{
     padding-top: 75px;
 }
-
+.connector a{
+    color: #B2B2B2;
+}
 .line{
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
@@ -50,7 +116,7 @@ footer{
 .line::before, .line::after{
     content: "";
     height: 2px;
-    width: 100  px;
+    width: 100px;
     background-color: white;
     display: block;
 }
@@ -60,19 +126,60 @@ button{
     background-color: black;
     color: white;
     display: flex;
-
 }
 a{
     text-decoration: none;
     padding: 25px;
-    padding-left: ;
 }
 .back{
     position: absolute;
     top: 50px;
     right: 30px;
+    background-color: #049DD9;
 }
+
+.back img{
+    width: 19px;
+    margin-right: 8px;
+}
+
 .container1{
         display: flex;
         justify-content: center;
+}
+
+.name{
+    display: inline;
+}
+
+input{
+    padding: 10px;
+    margin: 5px;
+    width: auto;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: black;
+}
+
+.label-style a{
+    padding: 0;
+    margin: 0;
+    text-decoration: underline;
+    color: white;
+}
+
+.register{
+    border-radius: 10px;
+    background-color: #049DD9;
+    padding: 20px;
+    color: white;
+    width: 280px;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    color: white;
 }

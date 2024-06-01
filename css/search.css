@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif   ;
+}
+.container{
+    display: grid;
+    height: 83.5vh;
+    grid-template-columns: 1fr 6fr;
+}
+button{
+    background-color: #031626;
+    color: white;
+    border: 0px;
+    font-size: 20px;
+    padding: 20px;
+    margin : 10px;
+
+}
+.left{
+    background-color: #031626; 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+.right{
+    background-color: #031626;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.picture,img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 5px; 
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 30px;
+    margin-bottom: 0px;
+}
+.search{
+    border-color: white;
+    border-radius: 50px;
+    background-color: black;
+    color:white;
+    width: 80vw;
+    height:50px;
+}
+h2{
+    color: white;
+    margin-left: 60px;
+}
+.favorite{
+    width: 160px;
+    height: 175px;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    border : 2px solid white;
+}
+.favorite > img{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+}
+.favorite > p{
+    color: white;
+}
+.favorite-container2{
+    display: flex;
+    margin-left: 60px;
+    gap : 30px;
+    flex-wrap: wrap;
+}
+button:hover{
+    color : blue;
+}
+h1{
+    color: white;
+}
+
+/* #logo-img{
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+    margin: 30px 0px 25px 0px;
+} */
