@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/home_page.css">
+    <link rel="stylesheet" href="../css/chat_page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="title-logo">
+                <img src="../assets/logo.svg" alt="" id="logo-img">
+                <img src="../assets/WEDIO.svg" alt="" id="brand-logo">
+            </div>    
+            <a href="home_page.html">
+                <button id="home">
+                    <i class="fa fa-home"></i>
+                    <span class="option">Home</span>
+                </button>
+            </a>
+            <a href="search_page.html">
+                <button type = "submit" id="search">
+                    <i class="fa fa-search"></i>
+                    <span class="option">Search</span>
+                </button>
+            </a>
+            <a href="chat_page.html">
+                <button type = "submit" id="message">
+                    <i class="fa fa-comment" aria-hidden="true"></i>
+                    <span class="option">Message</span>
+                </button>
+            </a>
+            <a href="create_post_page.html">
+                <button type = "submit" id="create">
+                    <i class="fa fa-microphone"></i>
+                    <span class="option">Create</span>
+                </button>
+            </a>
+            <a href="profile_page.html">
+                <button type = "submit" id="profile">
+                    <i class="fa fa-search"></i>
+                    <span class="option">Profile</span>
+                </button>
+            </a>
+        </div>
+        <div class="sidebar">
+            <!-- <div class="user-info">
+                <img src="user-avatar.jpg" alt="User Avatar" class="avatar">
+                <span>Jack Smith</span>
+            </div> -->
+            <div class="contacts">
+                <div class="contact">
+                    <img src="../assets/avatar1.jpg" alt="Avatar" class="avatar">
+                    <div class="contact-info">
+                        <span class="contact-name">William Key</span>
+                        <span class="contact-message">Hey Jack! Nice to meet you!</span>
+                    </div>
+                </div>
+                <!-- Tempat contact muncul -->
+            </div>
+        </div>
+        <div class="chat-container">
+            <div class="chat-header">
+                <img src="../assets/avatar1.jpg" alt="Avatar" class="avatar">
+                <div class="chat-header-info">
+                    <span class="chat-name">William Key</span>
+                    <span class="chat-status">Last seen today at 1:30 PM</span>
+                </div>
+            </div>
+            <div class="chat-window" id="chatWindow">
+                <!-- Tempat chat muncul -->
+            </div>
+            <div class="chat-input">
+                <input type="text" id="messageInput" placeholder="Type a message...">
+                <button id="sendButton">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="../js/chat.js"></script>
+</body>
+</html>
