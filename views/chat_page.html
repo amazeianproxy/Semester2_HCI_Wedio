@@ -6,6 +6,7 @@
     <title>Chat</title>
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/home_page.css">
+    <link rel="stylesheet" href="../css/playbar.css">
     <link rel="stylesheet" href="../css/chat_page.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
@@ -80,6 +81,57 @@
             </div>
         </div>
     </div>
+    <nav class="music-player">
+        <div class="song-bar">
+            <div class="song-infos">
+                <div class="image-container">
+                    <img src="/assets/ab67616d0000b273c0e833f8baa95fdcbcc4f65a.jpg" id="image">
+                </div>
+                <div class="song-description-start">
+                    <p class="title"> Fall in Love Alone</p>
+                    <p class="artist">Stacey Ryan</p>
+                </div>
+            </div>
+        </div>
+            <div class="progress-container">
+                <div class="control-button">
+                    <button>
+                        <i class="fa fa-random" aria-hidden="true" id="shuffle"></i>
+                    </button>
+                    <button>
+                        <i class="fa fa-step-backward" aria-hidden="true" id="previous"></i>
+                    </button>
+                    <button class="button">
+                        <i class="fas fa-play" id="play"></i>
+                    </button>
+                    <button>
+                        <i class="fa fa-step-forward" aria-hidden="true" id="next"></i>             
+                    </button>
+                </div>
+                <audio id="audio" src="/assets/Stacey Ryan - Fall In Love Alone (Lyrics).mp3" type="audio/mpeg">
+                </audio>
+                <div class="progress-container2" id="progress-container">
+                    <span id="current-time">0:00</span>
+                    <div class="progress-bar" id="progress-bar">
+                    <div class="progress" id="progress"></div>
+                    </div>
+                    <span id="duration">0:00</span>
+                </div>
+            </div>
+            <div class="nextSong-container">
+                <div class="song-description-end">
+                    <p>Next Song :</p>
+                    <p class="title" id="title"> Midnight Fiction</p>
+                    <p class="artist" id="artist">ILLIT</p>
+                </div>
+                <div class="image-container">
+                    <img src="/assets/download (1).jpg" id="imageN">
+                </div>
+                </div>
+            </div>
+        </div>
+    </nav>
     <script src="../js/chat.js"></script>
+    <script src="../js/audio.js"></script>
 </body>
 </html>
