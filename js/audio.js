@@ -14,8 +14,8 @@ const titleN = document.getElementById("Ntitle");
 const artistN = document.getElementById("Nartist");
 const artistPicN = document.getElementById("imageN");
 
-const image = ['/assets/ab67616d0000b273c0e833f8baa95fdcbcc4f65a.jpg','/assets/download (1).jpg','/assets/download (2).jpg'];
-const songs = ['/music/Stacey Ryan - Fall In Love Alone (Lyrics).mp3','/music/Midnight Fiction Illit.mp3','/music/YOASOBI -  (Idol).mp3']; 
+const image = ['../assets/ab67616d0000b273c0e833f8baa95fdcbcc4f65a.jpg','../assets/download (1).jpg','../assets/download (2).jpg'];
+const songs = ['../music/Stacey Ryan - Fall In Love Alone (Lyrics).mp3','../music/Midnight Fiction Illit.mp3','../music/YOASOBI -  (Idol).mp3']; 
 let index = 0;
 
 function nextSong(){
