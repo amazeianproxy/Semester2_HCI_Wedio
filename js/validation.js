@@ -43,7 +43,7 @@ function checkText(){
         }else if(!terms.checked){
             alert("Term and service must be agreed")
         }else{
-            window.location.href = "/views/home_page.html"
+            window.location.href = "../views/home_page.html"
         }
     
 }
