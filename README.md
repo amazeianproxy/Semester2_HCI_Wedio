@@ -9,7 +9,7 @@ Names & NIM:
 6. Samuel Lazuardi (2702230064)
 7. Saputra Tanuwijaya (2702227656)
 
-Do note that the original document is in Bahasa Indonesia, and has been translated by Google Translate to English to save time re-typing. The original README can be seen in the original repository, from 123jason689.
+Do note that the original document is in Bahasa Indonesia, and has been translated by Google Translate to English to save time re-typing. The original README can be seen in the original repository, from 123jason689. This also happens to be a project created for BINUS University's Computer Science major, 2nd Semester, for the Human and Computer Interface course.
 
 Project Name: WeDio
 
